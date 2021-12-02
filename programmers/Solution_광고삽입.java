@@ -3,7 +3,7 @@ package programmers;
 import java.util.*;
 
 // 누적 합 최적화,
-class Solution {
+class Solution_광고삽입 {
     public String solution(String play_time, String adv_time, String[] logs) {
         String answer = "";
         int playTimeSec =  getSecOfTime(play_time);
