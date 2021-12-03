@@ -7,14 +7,14 @@ class Solution_자물쇠와열쇠 {
         System.out.println(
                 new Solution_자물쇠와열쇠().solution(
                         new int[][] {
-                                {0, 0, 0}, {1, 0, 0}, {0, 1, 1}
-                        },
+                                {0, 0, 0},
+                                {1, 0, 0},
+                                {0, 1, 1}},
                         new int[][] {
-                                {1, 1, 1}, {1, 1, 0}, {1, 0, 1}
-                        }
-
-                )
-        );
+                                {1, 1, 1},
+                                {1, 1, 0},
+                                {1, 0, 1}}
+                ));
     }
     int[][] map;
     public boolean solution(int[][] key, int[][] lock) {
